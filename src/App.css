@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  text-align: left;
+  margin: 0 50px;
 }
 
 .App-logo {
@@ -35,4 +36,40 @@
   to {
     transform: rotate(360deg);
   }
+}
+.main-head {
+  text-align: center;
+  margin-top: 10px;
+}
+.socials {
+  display: flex;
+}
+.flex-links .ant-typography {
+  margin-right: 10px;
+  padding-right: 10px;
+  border-right: 1px black solid;
+}
+.flex-links .ant-typography:last-child {
+  border-right: unset;
+}
+.flex-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.flex-desc {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.flex-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: rgb(204 194 194);
+  margin-right: 5px;
 }
