@@ -20,6 +20,12 @@ const Experience: () => JSX.Element = () => {
             <li><Text>Configured and optimized dashboard for business partners</Text></li>
             <li><Text>Acquired knowledge React JS library</Text></li>
         </ul>
+        <Title level={3}>Freelance</Title>
+        <Title level={4}>PHP developer Feb 2019 - Nov 2019</Title>
+        <ul>
+            <li><Text>Developed some projects such as https://github.com/ilocalcoo/iLocal</Text></li>
+            <li><Text>Acquired knowledge PHP 7 and Yii2 framework</Text></li>
+        </ul>
         <Divider />
     </section>)
 }
