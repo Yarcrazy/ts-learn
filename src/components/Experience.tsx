@@ -11,7 +11,7 @@ const Experience: () => JSX.Element = () => {
         <Title level={4}>Fullstack PHP engineer Apr 2020 - Present</Title>
         <ul>
             <li><Text>Developed and implemented modern svelte and react components projects such as zengram.ru, zenlink.ru, spamguardapp.com</Text></li>
-            <li><Text>Configured and launching paralleling calculating process projects such as avodata.pro</Text></li>
+            <li><Text>Configured and launching paralleling calculating process projects such as datajam.pro and avodata.pro</Text></li>
             <li><Text>Improved and effectively enhanced hard skills</Text></li>
         </ul>
         <Title level={3}>Deltaplan ad agency</Title>
